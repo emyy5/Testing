@@ -16,6 +16,8 @@
 		918BD4A12A48657D0047509D /* LecOneTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BD4A02A48657D0047509D /* LecOneTestDemoTests.swift */; };
 		918BD4AB2A48657D0047509D /* LecOneTestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BD4AA2A48657D0047509D /* LecOneTestDemoUITests.swift */; };
 		918BD4AD2A48657D0047509D /* LecOneTestDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BD4AC2A48657D0047509D /* LecOneTestDemoUITestsLaunchTests.swift */; };
+		918BD4BA2A4865950047509D /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BD4B92A4865950047509D /* Calculator.swift */; };
+		918BD4BC2A4868BA0047509D /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BD4BB2A4868BA0047509D /* CalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		918BD4A62A48657D0047509D /* LecOneTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LecOneTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918BD4AA2A48657D0047509D /* LecOneTestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecOneTestDemoUITests.swift; sourceTree = "<group>"; };
 		918BD4AC2A48657D0047509D /* LecOneTestDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecOneTestDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		918BD4B92A4865950047509D /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		918BD4BB2A4868BA0047509D /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				918BD4922A48657D0047509D /* Assets.xcassets */,
 				918BD4942A48657D0047509D /* LaunchScreen.storyboard */,
 				918BD4972A48657D0047509D /* Info.plist */,
+				918BD4B92A4865950047509D /* Calculator.swift */,
 			);
 			path = LecOneTestDemo;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 		918BD49F2A48657D0047509D /* LecOneTestDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				918BD4BB2A4868BA0047509D /* CalculatorTests.swift */,
 				918BD4A02A48657D0047509D /* LecOneTestDemoTests.swift */,
 			);
 			path = LecOneTestDemoTests;
@@ -259,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				918BD48E2A48657B0047509D /* ViewController.swift in Sources */,
+				918BD4BA2A4865950047509D /* Calculator.swift in Sources */,
 				918BD48A2A48657B0047509D /* AppDelegate.swift in Sources */,
 				918BD48C2A48657B0047509D /* SceneDelegate.swift in Sources */,
 			);
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				918BD4A12A48657D0047509D /* LecOneTestDemoTests.swift in Sources */,
+				918BD4BC2A4868BA0047509D /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
